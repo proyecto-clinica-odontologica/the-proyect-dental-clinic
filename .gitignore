@@ -39,6 +39,8 @@ bower_components
 build/Release
 
 # Dependency directories
+muelitas-back/node_modules/
+muelitas-front/node_modules/
 node_modules/
 jspm_packages/
 
