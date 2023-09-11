@@ -50,6 +50,13 @@ import { Pro4subproceso2Component } from './procesos/proceso4/pro4subproceso2/pr
 import { Pro4subproceso3Component } from './procesos/proceso4/pro4subproceso3/pro4subproceso3.component';
 import { Pro4subproceso4Component } from './procesos/proceso4/pro4subproceso4/pro4subproceso4.component';
 import { Pro4subproceso5Component } from './procesos/proceso4/pro4subproceso5/pro4subproceso5.component';
+import { ProfileviewComponent } from './profile/profileview/profileview.component';
+import { ProfileeditComponent } from './profile/profileedit/profileedit.component';
+import { DashboardfooterComponent } from './components/dashboardfooter/dashboardfooter.component';
+import { DashboardheaderComponent } from './components/dashboardheader/dashboardheader.component';
+import { DashboardnavbarComponent } from './components/dashboardnavbar/dashboardnavbar.component';
+import { DashboardsidebarComponent } from './components/dashboardsidebar/dashboardsidebar.component';
+import { DphomeComponent } from './dphome/dphome.component';
 
 
 @NgModule({
@@ -101,7 +108,14 @@ import { Pro4subproceso5Component } from './procesos/proceso4/pro4subproceso5/pr
     Pro4subproceso2Component,
     Pro4subproceso3Component,
     Pro4subproceso4Component,
-    Pro4subproceso5Component
+    Pro4subproceso5Component,
+    ProfileviewComponent,
+    ProfileeditComponent,
+    DashboardfooterComponent,
+    DashboardheaderComponent,
+    DashboardnavbarComponent,
+    DashboardsidebarComponent,
+    DphomeComponent
   ],
   imports: [
     CommonModule,
